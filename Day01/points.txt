@@ -1,0 +1,160 @@
+Python
+------
+C or C++
+--------
+int i;
+string s;
+
+i = 10
+s = "hello"
+
+Python
+------
+i = 10		# i will behave like a integer
+----
+----
+----
+i = "Hello"     # after few lines
+----
+----
+----
+i = True	# Boolean
+
+Python is an open source - source code is freely available
+
+python was developed by Guido Van Russum
+
+Ready made functions for most of the requirements
+
+Desktop App		-	TKinter (TCL / TK)
+
+Web App			-	Flask, Django, Fast(MVC, REST API)
+
+Mobile			-	Kivy
+
+Testing			-	Unit Test, Pytest, Robot Framework
+
+Automations		-	paramiko
+
+Web Scrapping		-	request, beautiful soup
+
+Data Science		-	Numpy, pandas and Matplotlib, 					Seaborn
+
+ML and AI
+---------
+
+Data Engineering	- Spark, Kafka, Scala
+
+Python's versions
+-----------------
+2.X and 3.X
+
+2.X -> print "hello world"
+
+3.X -> print("hello world")
+
+Flavours of Python
+------------------
+1. CPython	-	 currently using
+
+2. Jython	-	Convert python code to Java
+
+3. Iron Python	-	Dot net libraries
+
+
+www.python.org - 3.12.x (windows, Linux, Mac)
+
+IDE
+---
+1. IDLE(python) - Integrated development environment
+
+2. PyCharm CE	- IntelliJ (community edition)
+
+3. VS Code CE	
+
+4. Eclipse (patch)
+
+5. sublime text
+
+6. Notepad++ 
+
+7. Jupyter Notebook - ML and AI
+
+8. Google colabs
+
+9. Spyder
+
+Python
+------
+1. SDK - libraries necessary to execute python code
+
+2. IDLE
+
+3. Shell 
+
+Numbers
+-------
+1. integer
+
+2. long (deprecated)
+   
+   238023849238490238490L
+   238023849238490238490
+
+
+3. float
+
+4. complex
+
+two operators that are overloaded
+
++ -> addition and concatenation
+
+* -> multiplication and to print a string n number of times
+
+Libraries are called as modules
+-------------------------------
+os module
+---------
+Operating System
+
+import importlib
+
+reload function
+
+
+from importlib import reload
+
+
+pip install virtualenv
+
+
+Python Coding Rules
+-------------------
+#! - shebang - used to specify the path of python executables
+
+print("Hello World")
+
+Line termination - enter key(return key)
+
+Comments
+--------
+we have single line comments - #
+
+strings in python are enclosed in 
+
+" " or ' ' - single line string
+
+"""  """ or '''  '''  - multiple line string
+
+
+
+
+
+
+
+
+
+
+
+
