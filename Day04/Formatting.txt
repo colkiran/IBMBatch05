@@ -1,0 +1,43 @@
+Formatting
+----------
+C style
+
+Python Style
+
+Dictionary
+----------
+1. unordered collection
+
+2. associative array
+
+3. Keys in a dictionary is unique
+
+4. They are mutable
+
+5. they are enclosed in {k:v, k:v, k:v.....}
+
+
+Associative array
+-----------------
+index	  0    1    2    3    4    5           
+array = ['a', 'b', 'c', 'd', 'e', 'f']
+
+associative array => {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+keys	- 0, 1, 2, 3, 4, 5
+values  - 'a', 'b', 'c', 'd', 'e', 'f'
+
+keys are user defined   - stud = {'s01': 'Jack', 's02': 'Mike'}
+keys are always unique
+
+
+functions to manipulate dictionary
+-----------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+
+
+
+
+
