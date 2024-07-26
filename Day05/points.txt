@@ -1,0 +1,50 @@
+Set
+---
+1. sets are unordered collections
+2. sets are not sub scriptable (cannot be indexed)
+3. elements of a set are always unique
+4. sets are mutable
+5. sets are enclosed in {1, 2, 3, 4, 5}
+
+Functions
+---------
+create and call a function 
+
+Scope of a Variable
+-------------------
+1. Global
+2. Local
+3. non local
+
+Global
+------
+
+
+Lambdas
+-------
+lambdas are anonymous functions with a single expression
+
+Syntax
+------
+result_of_exp = lambda var1, var2...: expression
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
