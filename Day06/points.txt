@@ -1,0 +1,53 @@
+Scope of variable
+-----------------
+Variables declared outside the function is not accessible inside the function and vice versa
+
+Accessibility => display and change the value of the variable
+
+1. global - variable declared outside the functions should be accessed inside the function
+
+
+2. local
+3. non local
+
+
+Decorator
+---------
+
+
+
+OOPS
+----
+1. Polymorphism
+2. Encapsulation
+3. Inheritance - 
+	account -  withdraw money  - OLD - 1. cheque 
+					   2. DD
+						
+				   - DB cards(OLD)
+
+				   - ONLINE (DB Cards)
+				
+				   - UPI Transaction (ONLINE)
+4. Abstraction - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
