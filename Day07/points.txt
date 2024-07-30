@@ -1,0 +1,59 @@
+class attribute or class variable
+
+class method
+
+
+----------------------------------------
+
+class Player:
+
+   def fun(self):	call this with object
+
+   def fun(cls): 	call this with class name
+
+   static methods
+   def fun():		call it with class name
+
+
+
+Average - 80 runs - 35 balls
+
+
+Operator Overloading
+--------------------
++ 	= __add__	= magic methods
+
+
+if we overload two operator
+
+1. equal_to (__eq__) - mandatory
+
+2. greater_than (__gt__) 
+
+
+write all - Arithmetic Operator Overloading
+--------------------------------------------
+
+convert getter method,  setter method and delete method to a property
+
+
+Assignment
+----------
+create a class method which accepts the dob of a person instead of age, now call the constructor with name and age (calculate the age and then call the constructor)
+
+
+class Player:
+
+   def __init__(self, name, age)
+	self.name = name
+	self.age = age
+
+
+ply1 = Player("Goerge", 38)
+
+ply2 = Player("Micheal", '10/05/1994')
+
+
+
+
+
