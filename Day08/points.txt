@@ -1,0 +1,63 @@
+Abstract Class
+--------------
+
+
+Packages and Modules
+=====================
+Module = Library
+
+python moudules will have the same extension as normal python file (.pyc)
+
+any python file can be considered as a module
+
+Package
+-------
+packages are directories or folders where the libraries are stored
+
+if it had a file __init__.py (2.x)
+
+Places where we can store the modules
+-------------------------------------
+env path location
+
+
+import a module
+---------------
+1. module .pyc file will get converted to .pyc file and gets stored in a folder __pycahce__
+
+2. if the file is not stored in environment path then go to python native path
+
+C:\\Users\\Kiran\\AppData\\Local\\Programs\\Python\\Python311 
+
+create a file with extension  .pth 
+
+3. it will check the date and time of creation of .py and .pyc files and expects .pyc file to have the latest 
+
+
+import module
+import package.module
+
+from package import module
+
+from package import *
+	
+---------------------------------------------------------------------
+Iterators
+---------
+
+
+
+Generators
+
+Coroutine
+
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
