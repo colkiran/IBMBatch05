@@ -1,0 +1,124 @@
+Regular Expressions
+-------------------
+import re
+---------
+ 'compile', 'copyreg', 'enum', 'error', 'escape', 'findall', 'finditer', 'fullmatch', 'functools', 'match', 'purge', 'search', 'split', 'sub', 'subn', 'template'
+
+match
+search
+
+.	- single character - it can match any character but only single 	  occurrence
+
+^	- Beginning of the string
+
+$	- End of the string
+
+
+
+* 	- zero or more occurrences of a character
+
+?	- zero or one occurrence of a character
+
++	- one or more occurrence of a character
+
+{n}	- exactly n times
+
+{n,}	- min n times and max infinite times
+
+{n, m}  - min n times and max m times
+
+()	- grouping
+
+[]	- character class
+
+|	- Alternation or OR operator
+
+\	- escape - supress  the meaning of regex
+
+
+License Number
+--------------
+lno = 'LCNO-KAR-05-2021-0000'
+
+LCNO - constant
+
+KAR - KAR, KER, APN, TND, TLG, MAH
+
+05 - RTO office number - [01 - 73] (no 00)
+
+2021 - 2000+
+
+0000 - 0001 - 9999 (no 0000)
+
+lno = "LCNO-KAR"
+
+re.search(r'LCNO-()', lno)
+
+lno = "LCNO-KAR-05-2021-0000"
+
+res = re.search(r'LCNO-(KAR|KER|APN|TND|MAH)-[01]5-202+1-(0000|9999)', lno)
+
+01 - 79 -[0-7][1-9]
+
+---------------------------------------------------------------
+Date
+----
+dd/mm/yyyy
+dd-mm-yyyy
+
+dd - 01-31
+mm - 01-12
+yyyy - valid year (1900)
+
+Invalid
+-------
+dd/mm-yyyy
+dd-mm/yyyy
+
+dt = "03/08/1997
+
+# \2 - recall the second grouping (-|\/) and expects the same symbol
+
+res = re.search(r'([0-2][1-9]|[1-3][0-1])(-|\/)(0[1-9]|1[0-2])(\2)(19[0-9]{2} | [2-9][0-9]{3})', dt)
+
+
+File Handling Python
+--------------------
+Notepad or text file - ascii format
+
+open a file for
+
+1. read		- r
+2. write	- w	
+3.append	- a
+
+
+Move the file handle from on line to another
+
+FL.seek(offset, whence)
+
+offset - no of bytes
+
+whence - 0  - BOF
+	 1  - Current Position
+	 2  - EOF
+
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+
+
+
+
+
+
+
+
+
