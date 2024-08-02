@@ -1,0 +1,62 @@
+Connect to a database
+---------------------
+sqlite3 = Mock Database - file database 
+
+1. Create a Database
+
+connect to the database  - arguments what we pass to connect to the database is called connection string.
+
+username, password, servername or ipaddress, portno
+
+
+2. Create a table
+
+3. insert records into the table
+
+4. read the records
+
+REST API (FLASK)
+----------------
+webservices - XML 
+
+java script frameworks 
+
+Angular
+React
+Ext
+
+JSON- format
+
+REST API
+--------
+Json data
+
+REST = Representational state transfer
+
+
+Numpy
+-----
+was found by Travis Oliphant in 2005
+
+numpy stands for Numerical Python
+
+compare list and numpy -> numpy is 50x faster than list
+
+Pandas
+------
+pandas means panel data and python data analysis
+
+pandas was created by MCKinney 2008
+ 
+
+
+
+
+
+
+
+
+
+
+
+
